@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/ll1tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            android:text="How to code this UI?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="22dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ll2tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:text="Game"
+            android:background="#FF0000FF"
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="22dp" />
+
+        <TextView
+            android:id="@+id/ll2tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android.layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="Education"
+            android:textAlignment="center"
+            android:background="#FF00FF00"
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="22dp" />
+
+        <TextView
+            android:id="@+id/ll2tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="Sport"
+            android:textAlignment="center"
+            android:background="#FFFFA500"
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="22dp" />
+    </LinearLayout>
+</LinearLayout
